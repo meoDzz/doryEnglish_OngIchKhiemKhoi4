@@ -409,5 +409,20 @@ window.playGlobalAudio = function (url, btn, isLimited) {
     };
 };
 
-document.getElementById('start-btn').addEventListener('click', startQuiz);
-document.getElementById('submit-btn').addEventListener('click', () => submitQuiz(false));
+
+document.addEventListener('DOMContentLoaded', () => {
+    const startBtn = document.getElementById('start-btn');
+    const submitBtn = document.getElementById('submit-btn');
+
+    // Kiểm tra xem nút có tồn tại không rồi mới gán sự kiện
+    if (startBtn) {
+        startBtn.addEventListener('click', startQuiz);
+        console.log("Đã kết nối nút Bắt đầu thành công!");
+    } else {
+        console.error("Lỗi: Không tìm thấy nút 'start-btn' trong HTML. Kiểm tra lại ID!");
+    }
+
+    if (submitBtn) {
+        submitBtn.addEventListener('click', () => submitQuiz(false));
+    }
+});
