@@ -1,0 +1,43 @@
+{
+      "questions": [
+            {
+                  "id": 1,
+                  "question": "Listen and choose the correct answer: What does Nam do every Tuesday afternoon?",
+                  "questionType": "multiple_choice",
+                  "audio": "Database_anHai/Nghe/nghecau1.mp3",
+                  "limitListen": true,
+                  "options": [
+                       "A. He plays football.",
+                       "B. He does judo.",
+                       "C. He goes to the library."
+                  ],
+                  "answer": "B. He does judo."
+            },
+            {
+                  "id": 2,
+                  "question": "Listen and choose the correct answer: Where is the cat?",
+                  "questionType": "multiple_choice",
+                  "audio": "Database_anHai/Nghe/nghecau2.mp3",
+                  "limitListen": true,
+                  "options": [
+                       "A. Under the table.",
+                       "B. On the sofa.",
+                       "C. Behind the TV."
+                  ],
+                  "answer": "C. Behind the TV."
+            },
+                {
+                  "id": 3,
+                  "question": "Listen and choose the correct answer: What does Mai's best friend look like?",
+                  "questionType": "multiple_choice",
+                  "audio": "Database_anHai/Nghe/nghecau3.mp3",
+                  "limitListen": true,
+                  "options": [
+                       "A. She has short hair.",
+                       "B. She has long hair.",
+                       "C. She wears glasses."
+                  ],
+                  "answer": "B. She has long hair."
+            }
+      ]
+}

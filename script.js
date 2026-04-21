@@ -94,7 +94,7 @@ async function enterExam() {
         enterExamBtn.disabled = true;
         enterExamBtn.textContent = "Đang tải đề thi...";
 
-        const res = await fetch('questionkhoi4.json');
+        const res = await fetch('question_anhai.json');
         const data = await res.json();
 
         let allQuestions = data.questions || [];
